@@ -10,3 +10,4 @@ export default function fibonacci(n: number): number {
   // Because 'n' is now a number, the '+' operator is safe
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
+ // EOF
